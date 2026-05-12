@@ -1,27 +1,27 @@
 class DispatchAi < Formula
   desc "Pattern 3 autonomous coding CLI with a verifier you can trust"
   homepage "https://github.com/dispatch-ai-labs/dispatch-ai"
-  version "0.0.6"
+  version "0.0.7"
 
   on_macos do
     on_arm do
-      url "https://github.com/dispatch-ai-labs/dispatch-ai/releases/download/v0.0.6/dispatch-darwin-arm64"
-      sha256 "e0f3100477a7884a6fa1e5ef096caf5d18144c4ff8255bb806a81179130d3c68"
+      url "https://github.com/dispatch-ai-labs/dispatch-ai/releases/download/v0.0.7/dispatch-darwin-arm64"
+      sha256 "05f57176c1b02e2b27b34f21564137ca2e9c62111f23cda0890f17816dcf81f4"
     end
     on_intel do
-      url "https://github.com/dispatch-ai-labs/dispatch-ai/releases/download/v0.0.6/dispatch-darwin-x64"
-      sha256 "7e36c0cee668f914981f77052f17daf711cd0102381ca095786f2b40ac943c4f"
+      url "https://github.com/dispatch-ai-labs/dispatch-ai/releases/download/v0.0.7/dispatch-darwin-x64"
+      sha256 "eb575e94e3039b9ddf186ee7428c4b9b16088338217cb410017d1a82b94ada2f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dispatch-ai-labs/dispatch-ai/releases/download/v0.0.6/dispatch-linux-arm64"
-      sha256 "fa7509070ec9c466ca9d05d1bfc0547ac822b1654238aa9cb02f05bb1e3559b7"
+      url "https://github.com/dispatch-ai-labs/dispatch-ai/releases/download/v0.0.7/dispatch-linux-arm64"
+      sha256 "47cb62fa0d165586f8a754647a1b7e1beca303e064ad6d6f07e52f2796cf940a"
     end
     on_intel do
-      url "https://github.com/dispatch-ai-labs/dispatch-ai/releases/download/v0.0.6/dispatch-linux-x64"
-      sha256 "d05919ca24bcdf6ad7582a4d0b8f029e5cc7d45e7c80aea1aa1b6ec98b84761a"
+      url "https://github.com/dispatch-ai-labs/dispatch-ai/releases/download/v0.0.7/dispatch-linux-x64"
+      sha256 "306b668a4f8837abef2b7938227a17ddda5fda98b06de322712f57062e75b2d4"
     end
   end
 
